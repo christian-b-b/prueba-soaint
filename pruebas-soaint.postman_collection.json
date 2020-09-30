@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "a452a8dd-2c3f-464d-8d56-5a8d7444295b",
+		"name": "pruebas-soaint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8001/cliente/registrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"nombre\":\"christian\",\r\n\t  \"apellido\":\"Baldeon\",\r\n\t  \"dni\":\"44520000\",\r\n\t  \"telefono\":\"956460840\",\r\n\t  \"email\":\"cbaldeon.com@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8001/cliente/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"cliente",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8001/producto/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/producto/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"producto",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8001/producto/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Elados Donofrio\",\r\n    \"precio\":200\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8001/producto/crear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"producto",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8001/producto/editar/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Elados Donofrio\",\r\n    \"precio\":30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8001/producto/editar/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"producto",
+						"editar",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8001/producto/eliminar/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/producto/eliminar/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						"producto",
+						"eliminar",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
