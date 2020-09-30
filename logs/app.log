@@ -1,0 +1,84 @@
+2020-09-30 00:34:31,893 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.balcorp.app.CarritoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-30 00:34:31,899 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.balcorp.app.CarritoApplicationTests]: CarritoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-30 00:34:32,616 INFO c.b.a.CarritoApplicationTests [main] Starting CarritoApplicationTests on DESKTOP-GKOM04O with PID 1136 (started by USER in E:\chris2020\workspace\prueba-soaint\carrito)
+2020-09-30 00:34:32,621 INFO c.b.a.CarritoApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-09-30 00:34:33,625 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-30 00:34:33,737 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100ms. Found 3 JPA repository interfaces.
+2020-09-30 00:34:35,252 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:34:35,278 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-30 00:34:35,489 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-30 00:34:35,632 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-30 00:34:35,776 INFO o.h.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-30 00:34:36,129 INFO o.h.a.c.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-30 00:34:36,525 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-30 00:34:37,309 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories�
+2020-09-30 00:34:37,984 INFO o.h.t.s.i.SchemaCreatorImpl [task-1] HHH000476: Executing import script 'file:/E:/chris2020/workspace/prueba-soaint/carrito/target/classes/import.sql'
+2020-09-30 00:34:37,986 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-30 00:34:37,999 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-30 00:34:38,508 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-30 00:34:38,518 INFO c.b.a.CarritoApplicationTests [main] Started CarritoApplicationTests in 6.245 seconds (JVM running for 7.924)
+2020-09-30 00:34:38,726 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-30 00:34:38,726 INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-30 00:34:38,762 INFO o.s.s.c.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:34:38,763 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-30 00:34:38,767 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-30 00:34:57,717 INFO c.b.a.CarritoApplication [restartedMain] Starting CarritoApplication on DESKTOP-GKOM04O with PID 13244 (E:\chris2020\workspace\prueba-soaint\carrito\target\classes started by USER in E:\chris2020\workspace\prueba-soaint\carrito)
+2020-09-30 00:34:57,725 INFO c.b.a.CarritoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-30 00:34:58,473 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-30 00:34:58,547 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 65ms. Found 3 JPA repository interfaces.
+2020-09-30 00:34:59,035 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2020-09-30 00:34:59,036 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2020-09-30 00:34:59,036 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-30 00:34:59,141 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-30 00:34:59,180 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-30 00:34:59,273 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-30 00:34:59,435 INFO o.s.s.c.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:34:59,569 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-30 00:34:59,612 INFO o.h.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-30 00:34:59,738 INFO o.h.a.c.Version [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-30 00:34:59,842 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-30 00:34:59,975 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2020-09-30 00:34:59,998 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-09-30 00:35:00,521 INFO o.h.t.s.i.SchemaCreatorImpl [task-1] HHH000476: Executing import script 'file:/E:/chris2020/workspace/prueba-soaint/carrito/target/classes/import.sql'
+2020-09-30 00:35:00,524 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-30 00:35:00,535 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-30 00:35:00,864 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-09-30 00:35:00,877 INFO c.b.a.CarritoApplication [restartedMain] Started CarritoApplication in 3.449 seconds (JVM running for 5.222)
+2020-09-30 00:35:18,185 INFO o.a.c.c.C.[.[.[/] [http-nio-8001-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-30 00:35:18,185 INFO o.s.w.s.DispatcherServlet [http-nio-8001-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-09-30 00:35:18,192 INFO o.s.w.s.DispatcherServlet [http-nio-8001-exec-2] Completed initialization in 7 ms
+2020-09-30 00:35:18,304 INFO c.b.a.c.ClienteController [http-nio-8001-exec-2] Iniciando con registro de clientes
+2020-09-30 00:39:31,060 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-30 00:39:31,061 INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl [Thread-7] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-30 00:39:31,087 INFO o.s.s.c.ThreadPoolTaskExecutor [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:39:31,317 WARN o.s.b.f.s.DisposableBeanAdapter [Thread-7] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-30 00:39:31,318 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-1 - Shutdown initiated...
+2020-09-30 00:39:31,322 INFO c.z.h.HikariDataSource [Thread-7] HikariPool-1 - Shutdown completed.
+2020-09-30 00:39:31,577 INFO c.b.a.CarritoApplication [restartedMain] Starting CarritoApplication on DESKTOP-GKOM04O with PID 13244 (E:\chris2020\workspace\prueba-soaint\carrito\target\classes started by USER in E:\chris2020\workspace\prueba-soaint\carrito)
+2020-09-30 00:39:31,578 INFO c.b.a.CarritoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-30 00:39:31,746 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-30 00:39:31,760 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13ms. Found 3 JPA repository interfaces.
+2020-09-30 00:39:31,884 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8001"]
+2020-09-30 00:39:31,884 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2020-09-30 00:39:31,885 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-30 00:39:31,919 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-30 00:39:31,952 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2020-09-30 00:39:31,957 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2020-09-30 00:39:32,015 INFO o.s.s.c.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:39:32,030 INFO o.h.j.i.u.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-30 00:39:32,039 INFO o.h.d.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-30 00:39:32,181 INFO o.h.t.s.i.SchemaCreatorImpl [task-1] HHH000476: Executing import script 'file:/E:/chris2020/workspace/prueba-soaint/carrito/target/classes/import.sql'
+2020-09-30 00:39:32,182 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-30 00:39:32,182 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-30 00:39:32,256 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8001"]
+2020-09-30 00:39:32,260 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-09-30 00:39:32,320 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-09-30 00:39:32,323 INFO c.b.a.CarritoApplication [restartedMain] Started CarritoApplication in 0.78 seconds (JVM running for 276.668)
+2020-09-30 00:39:35,779 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(13)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-30 00:39:35,779 INFO o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(13)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-30 00:39:35,793 INFO o.s.s.c.ThreadPoolTaskExecutor [RMI TCP Connection(13)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-30 00:39:35,995 WARN o.s.b.f.s.DisposableBeanAdapter [RMI TCP Connection(13)-127.0.0.1] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-30 00:39:35,997 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2020-09-30 00:39:36,002 INFO c.z.h.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-2 - Shutdown completed.
